@@ -1,0 +1,25 @@
+columnSuffix: null
+handle: aboutPhotographySkills
+instructions: null
+name: 'About Photography Skills'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 3b0fba4a-1dcc-44e7-b26f-567b5bd76d36 # About Photography Skills
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

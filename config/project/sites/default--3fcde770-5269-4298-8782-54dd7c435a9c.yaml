@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: my-craft-cleanphotography
+primary: true
+siteGroup: b845a392-54d1-427c-bb3a-604aafc9e130 # my-craft-cleanphotography
+sortOrder: 1

@@ -1,0 +1,50 @@
+dateModified: 1739427335
+email:
+  fromEmail: dean.casili@gmail.com
+  fromName: my-craft-cleanphotography
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    0b13a31b-7210-48c4-b6a3-808d8496898b: Uploads # Uploads
+    2f36ea61-ec39-49c9-8774-ca1927e13859: 'About Photography Skills' # About Photography Skills
+    3b0fba4a-1dcc-44e7-b26f-567b5bd76d36: 'About Photography Skills' # About Photography Skills
+    3ed901e0-32d6-46cc-bb5c-8b5d81add716: 'Banner Image' # Banner Image
+    3fcde770-5269-4298-8782-54dd7c435a9c: my-craft-cleanphotography # my-craft-cleanphotography
+    7c29c120-eff3-46bd-91f1-2235e68cdaa4: 'Banner Rich Text' # Banner Rich Text
+    9e70dff7-437f-464f-a923-30c8c581ef7a: 'Public Schema' # Public Schema
+    29f8e5dc-cc81-4345-8008-cfa540e5adbf: Simple # Simple
+    59b7b560-eea6-4372-ba41-42299230a3b5: 'About Image' # About Image
+    51768e46-ef5c-46e2-bd19-81ddc6ec2135: 'About Title' # About Title
+    a3e01d61-394f-4c5c-be3f-6f78c1d9fc5d: 'Block Skill Percentage' # Block Skill Percentage
+    b52af57d-f49d-4cbf-a556-f1cd4dd26395: 'Block Skill Name' # Block Skill Name
+    b845a392-54d1-427c-bb3a-604aafc9e130: my-craft-cleanphotography # my-craft-cleanphotography
+    b44842db-02d9-4053-9fb0-543fd6d85c03: Home # Home
+    d904b2d7-b2c5-4208-86bd-ebd726cdc767: Custom # Custom
+    e6e1d203-8dd6-43e6-ae50-17188cda1a25: 'About Content' # About Content
+    fd9098f3-042e-4c54-8127-bed6483c9100: Home # Home
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+system:
+  edition: solo
+  live: true
+  name: my-craft-cleanphotography
+  schemaVersion: 5.6.0.2
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

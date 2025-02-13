@@ -1,0 +1,83 @@
+color: null
+fieldLayouts:
+  c80e9f6f-92a0-4670-a74d-37b4b7dabd5a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-02-13T05:41:29+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ce8e2264-66bb-4574-adde-479c60d54fc6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-13T05:46:20+00:00'
+            elementCondition: null
+            fieldUid: b52af57d-f49d-4cbf-a556-f1cd4dd26395 # Block Skill Name
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 625197a4-3386-4482-aeca-3a9cac15d7b7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-13T05:46:20+00:00'
+            elementCondition: null
+            fieldUid: a3e01d61-394f-4c5c-be3f-6f78c1d9fc5d # Block Skill Percentage
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2ae2872a-8f7a-4d5a-b67c-db25b54293b3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3ffbe0af-1c18-48d3-9829-87df7255142c
+        userCondition: null
+handle: aboutPhotographySkills
+hasTitleField: true
+icon: null
+name: 'About Photography Skills'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

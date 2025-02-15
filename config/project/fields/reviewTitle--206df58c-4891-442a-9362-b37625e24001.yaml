@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: reviewTitle
+instructions: null
+name: 'Review Title'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: d904b2d7-b2c5-4208-86bd-ebd726cdc767 # Custom
+  createButtonLabel: 'Enter a title.'
+  defaultTransform: null
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups: '*'
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

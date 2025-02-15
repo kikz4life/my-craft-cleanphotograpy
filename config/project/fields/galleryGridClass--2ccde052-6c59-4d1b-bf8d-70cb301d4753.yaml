@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: galleryGridClass
+instructions: null
+name: 'Gallery Grid Class'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'Enter a class name: photo_a, photo_b, or photo_c'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

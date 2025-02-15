@@ -1,7 +1,11 @@
-dateModified: 1739427335
+dateModified: 1739547450
 email:
-  fromEmail: dean.casili@gmail.com
+  fromEmail: deanmon_you@yahoo.com
   fromName: my-craft-cleanphotography
+  replyToEmail: null
+  template: null
+  transportSettings:
+    command: '/usr/local/bin/mailpit sendmail -t --smtp-addr 127.0.0.1:1025'
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   uploads:
@@ -14,19 +18,36 @@ fs:
 meta:
   __names__:
     0b13a31b-7210-48c4-b6a3-808d8496898b: Uploads # Uploads
+    2ccde052-6c59-4d1b-bf8d-70cb301d4753: 'Gallery Grid Class' # Gallery Grid Class
     2f36ea61-ec39-49c9-8774-ca1927e13859: 'About Photography Skills' # About Photography Skills
     3b0fba4a-1dcc-44e7-b26f-567b5bd76d36: 'About Photography Skills' # About Photography Skills
     3ed901e0-32d6-46cc-bb5c-8b5d81add716: 'Banner Image' # Banner Image
     3fcde770-5269-4298-8782-54dd7c435a9c: my-craft-cleanphotography # my-craft-cleanphotography
+    4bc8eaf1-77be-48c6-86ba-36a1d17893cc: 'Gallery List Title' # Gallery List Title
+    4dcb8646-ad96-499f-b7c8-1e6d186f86a1: 'Gallery Image' # Gallery Image
+    6b455c37-67ae-43c1-9cf3-7fd9b5e96f6b: 'Review Description' # Review Description
     7c29c120-eff3-46bd-91f1-2235e68cdaa4: 'Banner Rich Text' # Banner Rich Text
     9e70dff7-437f-464f-a923-30c8c581ef7a: 'Public Schema' # Public Schema
     29f8e5dc-cc81-4345-8008-cfa540e5adbf: Simple # Simple
+    30cf4ce7-0d33-4bdd-8260-d5fd917dc606: 'Services Content' # Services Content
+    39b97c64-fd3e-498d-bcf1-3838a8c4ac4e: 'Gallery Post' # Gallery Post
+    050ee709-2e6c-4567-b6f2-48e266a96966: 'Services Content' # Services Content
     59b7b560-eea6-4372-ba41-42299230a3b5: 'About Image' # About Image
+    87f73687-cdcc-4842-a252-f6cbcff6e137: 'Services Rich Text' # Services Rich Text
+    096db8d6-0fe7-402b-b5c2-0e640aa3a64f: 'Services Title' # Services Title
+    206df58c-4891-442a-9362-b37625e24001: 'Review Title' # Review Title
+    254c9984-3e10-41c2-98c4-3fff8309bd0b: 'Services Class Icon' # Services Class Icon
+    0514bc33-c9e9-468f-82b3-3ae0fa39ff0b: 'Review Content' # Review Content
+    5394c62f-6b64-47af-a5c6-2a4197bb68c6: 'Gallery List' # Gallery List
     51768e46-ef5c-46e2-bd19-81ddc6ec2135: 'About Title' # About Title
     a3e01d61-394f-4c5c-be3f-6f78c1d9fc5d: 'Block Skill Percentage' # Block Skill Percentage
+    a6ba4441-bf9d-46c5-aaaa-0c475468cfda: 'Review Content' # Review Content
+    b2ceae8b-1f73-4745-a97c-d16e13b0c99b: 'Gallery Title' # Gallery Title
+    b9abc6e0-c31a-4bb1-b886-f9042960e7a3: 'Review Image' # Review Image
     b52af57d-f49d-4cbf-a556-f1cd4dd26395: 'Block Skill Name' # Block Skill Name
     b845a392-54d1-427c-bb3a-604aafc9e130: my-craft-cleanphotography # my-craft-cleanphotography
     b44842db-02d9-4053-9fb0-543fd6d85c03: Home # Home
+    d051eec1-6bfb-49f7-86f6-72cc26bb0cee: 'Gallery List' # Gallery List
     d904b2d7-b2c5-4208-86bd-ebd726cdc767: Custom # Custom
     e6e1d203-8dd6-43e6-ae50-17188cda1a25: 'About Content' # About Content
     fd9098f3-042e-4c54-8127-bed6483c9100: Home # Home
@@ -35,6 +56,17 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 3.0.0.0
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      allowedMessageFields: null
+      prependSender: 'On behalf of'
+      prependSubject: 'New Contact Form Message'
+      successFlashMessage: 'Thank you sss! Your message has been sent successfully.'
+      toEmail: deanmon_you@yahoo.com
 system:
   edition: solo
   live: true

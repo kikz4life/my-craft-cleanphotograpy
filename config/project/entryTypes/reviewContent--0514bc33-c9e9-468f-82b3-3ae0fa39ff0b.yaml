@@ -1,0 +1,83 @@
+color: null
+fieldLayouts:
+  4a3196dd-7f24-4ad7-9e80-ba705d7c07b5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-02-13T14:45:17+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 73a1f992-950c-4bc4-a07b-e2560aedcd4c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-13T14:52:08+00:00'
+            elementCondition: null
+            fieldUid: b9abc6e0-c31a-4bb1-b886-f9042960e7a3 # Review Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 676c6073-2a84-4186-87db-ba4c667e7502
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-02-13T14:52:08+00:00'
+            elementCondition: null
+            fieldUid: 6b455c37-67ae-43c1-9cf3-7fd9b5e96f6b # Review Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2434d41f-241e-4d4a-90db-a16d19ce934f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9b8e619f-fe6c-4ea4-b861-17d37626b50b
+        userCondition: null
+handle: reviewContent
+hasTitleField: true
+icon: null
+name: 'Review Content'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,16 @@
+columnSuffix: null
+handle: servicesClassIcon
+instructions: null
+name: 'Services Class Icon'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  initialRows: 4
+  multiline: false
+  placeholder: 'Enter your class icon.'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
